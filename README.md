@@ -10,40 +10,42 @@ K dispozici jsou data o všech výpůjčkách (edinburgh_bikes.xlsx, edinburgh_w
 
 Úkolem je zpracovat relevantní data a zjistit z nich následující informace:
   
-Jak dlouho trvá jedna výpůjčka kola (jedna jízda)?
-Jaké stanice jsou aktivní a neaktivní?
-Na jakých stanicích se kola hromadí a kde jich je nedostatek?
-Jaké jsou vzdálenosti mezi jednotlivými stanicemi?
-Jak se vyvíjí poptávka po kolech v čase a jaké jsou příčiny výkyvu poptávky?
-Jaký vliv má na poptávku počasí?
-Půjčují si lidé kola více o víkendu, nebo v pracovních dnech?
+1. Jak dlouho trvá jedna výpůjčka kola (jedna jízda)?
+2. Jaké stanice jsou aktivní a neaktivní?
+3. Na jakých stanicích se kola hromadí a kde jich je nedostatek?
+4. Jaké jsou vzdálenosti mezi jednotlivými stanicemi?
+5. Jak se vyvíjí poptávka po kolech v čase a jaké jsou příčiny výkyvu poptávky?
+6. Jaký vliv má na poptávku počasí?
+7. Půjčují si lidé kola více o víkendu, nebo v pracovních dnech?
 
 Výsledek analýzy
 
 1. Jak dlouho trvá jedna výpůjčka kola (jedna jízda)?
-nejvíce výpůjček trvá 5-10 minut
-polovina výpůjček trvá do 20 minut
-99.9 % výpůjček trvá do 6,5 hodiny
+  - nejvíce výpůjček trvá 5-10 minut
+  - polovina výpůjček trvá do 20 minut
+  - 99.9 % výpůjček trvá do 6,5 hodiny
+
 2. Jaké stanice jsou aktivní a neaktivní?
-hranice pro neaktivní stanice byla stanovena na 1 odjezd a 1 příjezd týdně
-rozsah aktivity stanic je 0-32 odjezdů/příjezdů za den
-polovina stanic má aktivitu 2 odjezdy/příjezdy za den
-počet neaktivních stanic je 42 (21 % celku)
+  - hranice pro neaktivní stanice byla stanovena na 1 odjezd a 1 příjezd týdně
+  - rozsah aktivity stanic je 0-32 odjezdů/příjezdů za den
+  - polovina stanic má aktivitu 2 odjezdy/příjezdy za den
+  - počet neaktivních stanic je 42 (21 % celku)
+
 3. Na jakých stanicích se kola hromadí a kde jich je nedostatek?
-na 11 stanicích se kola hromadí (přírůstek > 1 kolo za den)
-na 16 stanicích je nedostatek kol (úbytek > 1 kolo za den)
+  - na 11 stanicích se kola hromadí (přírůstek > 1 kolo za den)
+  - na 16 stanicích je nedostatek kol (úbytek > 1 kolo za den)
 4. Jaké jsou vzdálenosti mezi jednotlivými stanicemi?
-byla vytvořena interaktivní mapa rozmístění stanic
-byla vypočítána matice vzdáleností 199x199 stanic viz výsledky analýzy
+  - byla vytvořena interaktivní mapa rozmístění stanic
+  - byla vypočítána matice vzdáleností 199x199 stanic viz výsledky analýzy
 5. Jak se vyvíjí poptávka po kolech v čase a jaké jsou příčiny výkyvu poptávky?
-poptávka je závislá na sezóně (vliv ročních období)
-v roce 2020 došlo k nárůstu poptávky - možný vliv koronaviru (averze k hromadné dopravě)
+  - poptávka je závislá na sezóně (vliv ročních období)
+  - v roce 2020 došlo k nárůstu poptávky - možný vliv koronaviru (averze k hromadné dopravě)
 6. Jaký vliv má na poptávku počasí?
-poptávku ovlivňují mezní hodnoty teploty vzduchu (okolí bodu mrazu a 20 °C)
-poptávka je výrazně ovlivněna deštěm a také vyššími hodnotami rychlosti větru
+  - poptávku ovlivňují mezní hodnoty teploty vzduchu (okolí bodu mrazu a 20 °C)
+  - poptávka je výrazně ovlivněna deštěm a také vyššími hodnotami rychlosti větru
 7. Půjčují si lidé kola více o víkendu, nebo v pracovních dnech?
-o víkendu je vyšší zájem o kola oproti pracovním dnům
-nárůst poptávky je patrný již v pátek
+  - o víkendu je vyšší zájem o kola oproti pracovním dnům
+  - nárůst poptávky je patrný již v pátek
 
   
 
